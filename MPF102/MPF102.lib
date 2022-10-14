@@ -1,0 +1,37 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# MPF102
+#
+DEF MPF102 Q 0 40 N N 1 L N
+F0 "Q" 200 0 50 H V L BNN
+F1 "MPF102" 200 -100 50 H V L BNN
+F2 "TO92F" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 6 100 -75 21 -75 N
+P 2 0 0 6 100 -100 100 -75 N
+P 2 0 0 6 100 105 100 75 N
+P 2 0 0 6 100 75 20 75 N
+P 2 0 0 6 -10 0 -60 20 N
+P 2 0 0 6 -60 20 -60 -20 N
+P 2 0 0 6 -60 -20 -10 0 N
+P 2 0 0 6 -100 0 -30 0 N
+P 2 0 0 6 -30 0 -25 0 N
+P 2 0 0 6 -25 0 -10 0 N
+P 2 0 0 12 -25 0 -55 10 N
+P 2 0 0 12 -55 10 -55 -10 N
+P 2 0 0 12 -55 -10 -30 0 N
+T 0 50 100 32 0 0 0 D Normal 0 L B
+T 0 50 -125 32 0 0 0 S Normal 0 L B
+T 0 -125 -50 32 0 0 0 G Normal 0 L B
+S -10 -100 20 100 0 0 0 F
+X ~ 3 -200 0 100 R 40 40 0 0 P 
+X ~ 1 100 200 100 D 40 40 0 0 P 
+X ~ 2 100 -200 100 U 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library
